@@ -64,4 +64,3 @@ The terminal's response payload is extracted using strict byte offsets:
 * **Offset [81-96]:** Card Brand Name
 
 Extended firmware payload extractions (TID, MID, Batch Number) are also supported if the payload length exceeds 125 bytes.
-```
