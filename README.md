@@ -5,6 +5,11 @@ This repository contains a C-based command-line interface (CLI) application desi
 
 This project was rewritten entirely in standard C to facilitate seamless, native integration with the Sentec agent, replacing the legacy Python implementation. It handles standard RS-232/USB serial communication, payload construction, cryptographic checksums, and hexadecimal response parsing based on standard ECR protocols.
 
+<img width="574" height="628" alt="image" src="https://github.com/user-attachments/assets/230db1a5-cc40-407b-8428-43d0a9faf086" />
+<img width="488" height="626" alt="image" src="https://github.com/user-attachments/assets/0f518dc7-45c5-4cdb-a2b6-d4ee4d3c5334" />
+
+
+
 ## Features
 * **Native C Integration:** 100% standard C relying strictly on native Windows APIs (`windows.h`, `setupapi.h`). No external dependencies or frameworks.
 * **Hardware Auto-Detection:** Automatically scans the Windows registry to locate and connect to Prolific USB-to-Serial cables.
